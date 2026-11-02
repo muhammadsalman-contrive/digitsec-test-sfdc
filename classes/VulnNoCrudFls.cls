@@ -9,5 +9,6 @@ public without sharing class VulnNoCrudFls {
         Contact c = [SELECT Id, Salary__c FROM Contact WHERE Id = :contactId];
         c.Salary__c = salary;
         update c;
+
     }
 }
