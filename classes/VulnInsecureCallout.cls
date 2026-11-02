@@ -6,5 +6,7 @@ public class VulnInsecureCallout {
         HttpResponse res = new Http().send(req);
         System.debug('Response with key ' + apiKey + ': ' + res.getBody());
         return res.getBody();
+
+
     }
 }
